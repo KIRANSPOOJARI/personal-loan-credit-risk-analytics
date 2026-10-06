@@ -145,9 +145,8 @@ Based on the analysis, credit-risk teams could consider:
 - Using interactive dashboards for ongoing portfolio monitoring
 These are analytical recommendations based on the dataset and not production lending policies.
 
-📁 Project Structure
-personal-loan-credit-risk-analytics/
 
+personal-loan-credit-risk-analytics/
 │
 ├── README.md
 │
@@ -165,6 +164,7 @@ personal-loan-credit-risk-analytics/
 │
 └── screenshots/
     └── dashboard.png
+    
 
 🚀 Project Outcome
 This project demonstrates an end-to-end analytics workflow involving:
