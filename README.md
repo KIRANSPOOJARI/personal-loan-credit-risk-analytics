@@ -1,7 +1,9 @@
 Personal Loan Credit Risk & Default Analytics
+
 📌 Project Overview
 An end-to-end Personal Loan Credit Risk & Default Analytics project focused on analyzing loan application data to identify default patterns, segment credit risk, and generate actionable lending insights.
 The project uses 25,000 loan applications and demonstrates the complete analytics workflow — from data cleaning and validation to SQL analysis, Python-based statistical analysis, and an interactive Power BI dashboard.
+
 🎯 Business Objective
 The primary objectives of this project were to:
 - Analyze overall loan portfolio performance and default rate
@@ -10,7 +12,9 @@ The primary objectives of this project were to:
 - Analyze the relationship between CIBIL score, loan amount, collateral, and default
 - Build an interactive dashboard for portfolio and risk analysis
 - Generate insights that can support data-driven lending and credit-risk decisions
+
 🛠️ Tools & Technologies
+
 Tool	Purpose
 Excel	Data cleaning and validation
 PostgreSQL	Data analysis and SQL-based risk segmentation
@@ -48,6 +52,7 @@ Key activities included:
 - Checked categorical fields for inconsistencies
 - Verified the cleaned dataset contained 25,000 records and no remaining missing values
 - Performed basic outlier and data-quality checks
+
 🗄️ SQL Analysis — PostgreSQL
 PostgreSQL was used to analyze portfolio performance and identify risk patterns.
 Key analyses
@@ -61,6 +66,8 @@ Key analyses
 - Default rate by employment type
 - Default rate by credit utilization
 - Risk segmentation based on CIBIL score
+
+
 Portfolio KPIs
 Metric	Result
 Total Applications	25,000
@@ -81,8 +88,11 @@ Analysis performed
 - Loan amount segmentation
 - Collateral analysis
 - Statistical hypothesis testing
+  
 A Welch's independent t-test was performed to determine whether CIBIL scores differed significantly between defaulters and non-defaulters.
 The test showed a statistically significant difference (p < 0.001).
+
+
 📈 Power BI Dashboard
 An interactive Power BI dashboard was developed to monitor loan portfolio and credit-risk patterns.
 Dashboard includes
@@ -101,6 +111,8 @@ Interactive Filters
 - State
 - Gender
 - Loan Purpose
+
+  
 🔍 Key Findings
 1. CIBIL score is the strongest risk differentiator
 CIBIL Range	Default Rate
@@ -109,17 +121,21 @@ Below 550	23.77%
 650–749	0.77%
 750+	0.00%
 
-
 Applicants with CIBIL scores below 550 showed substantially higher default rates than higher-score segments.
 2. Loan amount shows a meaningful difference
 Applicants requesting loans below ₹1 lakh had a default rate of approximately 1.8%, while loan amounts above ₹1 lakh showed default rates around 8%.
+
 3. Collateral is associated with lower default rates
 - Without collateral: 6.85%
 - With collateral: 3.59%
+  
 4. Employment type has a relatively weak relationship
 Default rates across employment categories were relatively close, ranging approximately from 5.9% to 6.4%.
-5. Credit utilization shows a weaker relationship
+
+6. Credit utilization shows a weaker relationship
 Default rates across utilization bands were relatively close, ranging from approximately 5.7% to 7.2%.
+
+
 💡 Business Insights
 Based on the analysis, credit-risk teams could consider:
 - Giving greater attention to applicants with lower CIBIL scores
@@ -128,6 +144,7 @@ Based on the analysis, credit-risk teams could consider:
 - Avoiding reliance on a single variable and using multiple risk indicators together
 - Using interactive dashboards for ongoing portfolio monitoring
 These are analytical recommendations based on the dataset and not production lending policies.
+
 📁 Project Structure
 personal-loan-credit-risk-analytics/
 │
@@ -152,7 +169,8 @@ personal-loan-credit-risk-analytics/
 This project demonstrates an end-to-end analytics workflow involving:
 Data Cleaning → SQL Analysis → Python EDA → Statistical Testing → Power BI Dashboard → Business Insights
 It strengthened practical skills in SQL, Python, Power BI, data validation, statistical analysis, risk segmentation, and business-focused data storytelling.
+
 👤 Author
-Kiran
+Kiran S Poojari
 Aspiring Data Analyst / Business Analyst with skills in:
 SQL | Excel | Power BI | Python | Data Analytics
